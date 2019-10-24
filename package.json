@@ -1,0 +1,19 @@
+{
+  "name": "randomize",
+  "version": "1.0.0",
+  "description": "Tries to randomly pull items from an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavnorthwind/Randomize.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mavnorthwind/Randomize/issues"
+  },
+  "homepage": "https://github.com/mavnorthwind/Randomize#readme"
+}
