@@ -19,3 +19,11 @@ console.log(`bla[0] = ${bla[0]}`);
 console.log(`bla[42] = ${bla[42]}`);
 console.log(`bla[last] = ${bla[bla.length-1]}`);
 
+var lotto = [];
+for (var i = 1; i <= 49; i++) {
+    lotto.push(i);
+}
+
+var glueckszahlen = randomizer.pullRandom(lotto, 6);
+console.log(glueckszahlen);
+
