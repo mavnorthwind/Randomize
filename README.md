@@ -1,2 +1,3 @@
 # Randomize
-Tries to randomly pull items from an array
+Allows to shuffle an array and to
+randomly pull items from an array
