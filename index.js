@@ -25,5 +25,5 @@ for (var i = 1; i <= 49; i++) {
 }
 
 var glueckszahlen = randomizer.pullRandom(lotto, 6);
-console.log(glueckszahlen);
+console.log("Deine Glückszahlen sind: " + glueckszahlen);
 
