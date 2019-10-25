@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Randomize", "Randomize.njsproj", "{16387751-8A6A-4303-A71D-DD7630180681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16387751-8A6A-4303-A71D-DD7630180681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16387751-8A6A-4303-A71D-DD7630180681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16387751-8A6A-4303-A71D-DD7630180681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16387751-8A6A-4303-A71D-DD7630180681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E71E596-49FF-43F2-9109-4E963F81471A}
+	EndGlobalSection
+EndGlobal

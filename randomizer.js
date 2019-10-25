@@ -2,7 +2,7 @@
 
 function shuffle(arr) {
 	if (arr.constructor !== Array) {
-		throw "Argument mismatch: arr is not an array";
+		throw new Error("Argument mismatch: arr is not an array");
 	}
 
 	for (var i=0; i<1000; i++) {
@@ -17,13 +17,13 @@ function shuffle(arr) {
 
 function pullRandom(arr, count) {
 	if (arr.constructor !== Array) {
-		throw "Argument mismatch: arr is not an array";
+        throw new Error("Argument mismatch: arr is not an array");
 	}
 	if (count >= arr.length) {
-		throw "Argument out of range. count is longer than the array";
+        throw new Error("Argument out of range. count is longer than the array");
 	}
     if (count < 0) {
-        throw "Argument out of range. count must be >= 0";
+        throw new Error("Argument out of range. count must be >= 0");
     }
 	
     shuffle(arr);
