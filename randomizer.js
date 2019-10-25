@@ -22,6 +22,9 @@ function pullRandom(arr, count) {
 	if (count >= arr.length) {
 		throw "Argument out of range. count is longer than the array";
 	}
+    if (count < 0) {
+        throw "Argument out of range. count must be >= 0";
+    }
 	
     shuffle(arr);
 

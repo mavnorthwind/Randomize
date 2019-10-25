@@ -27,3 +27,10 @@ for (var i = 1; i <= 49; i++) {
 var glueckszahlen = randomizer.pullRandom(lotto, 6);
 console.log("Deine Glückszahlen sind: " + glueckszahlen);
 
+
+try {
+    var bug = randomizer.pullRandom(lotto, -3);
+    console.log(bug);
+} catch (e) {
+    console.error(e);
+}
