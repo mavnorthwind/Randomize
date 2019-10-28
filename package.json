@@ -4,8 +4,8 @@
   "description": "Tries to randomly pull items from an array",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "coverage": "nyc --reporter=lcov npm run test"
+    "test": "nyc --reporter=lcov mocha",
+    "coverage": "codecov"
   },
   "repository": {
     "type": "git",
