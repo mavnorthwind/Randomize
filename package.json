@@ -17,11 +17,11 @@
     "url": "https://github.com/mavnorthwind/Randomize/issues"
   },
   "homepage": "https://github.com/mavnorthwind/Randomize#readme",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.2.2"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "chai": "^4.2.0",
+    "codecov": "^3.6.1",
+    "mocha": "^6.2.2",
     "nyc": "^14.1.1"
   }
 }
