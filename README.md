@@ -5,3 +5,6 @@
 
 Allows to shuffle an array and to
 randomly pull items from an array
+
+This is mostly a test project for online CI using Travis, Javascript unit testing with mocha and chai as well as
+adding code coverage (codecov) and vulnerability detection in dependencies with snyk.io.
