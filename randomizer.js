@@ -19,16 +19,24 @@ function pullRandom(arr, count, allowDupes = false) {
 	if (arr.constructor !== Array) {
         throw new Error("Argument mismatch: arr is not an array");
 	}
-	if (count >= arr.length) {
+	if (!allowDupes && count >= arr.length) {
         throw new Error("Argument out of range. count is longer than the array");
 	}
     if (count < 0) {
         throw new Error("Argument out of range. count must be >= 0");
     }
-	
-    shuffle(arr);
 
-    return arr.slice(0, count);
+    if (allowDupes) {
+        var res = [];
+        for (var i = 0; i < count; i++) {
+            var x = parseInt(Math.random() * arr.length);
+            res.push(arr[x]);
+        }
+        return res;
+    } else {
+        shuffle(arr);
+        return arr.slice(0, count);
+    }
 }
 
 module.exports.shuffle = shuffle;

@@ -59,5 +59,22 @@ describe("pullRandom tests", function () {
         var res = randomizer.pullRandom(a, 5, true);
 
         expect(res.length).to.be.equal(5);
+
+        // bei 5 Zügen muss ein Wert doppelt vorkommen:
+        var cnt1 = 0, cnt2 = 0;
+        for (var i in res) {
+            switch (res[i]) {
+                case 1:
+                    cnt1++;
+                    break;
+                case 2:
+                    cnt2++;
+                    break;
+                default:
+                    throw new Error("Unexpected result " + i);
+            }
+        }
+
+        expect(cnt1 > 1 || cnt2 > 1);
     });
 });

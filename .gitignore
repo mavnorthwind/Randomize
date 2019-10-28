@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# no bin or obj
+bin/
+obj/
