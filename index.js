@@ -25,8 +25,9 @@ for (var i = 1; i <= 49; i++) {
 }
 
 var glueckszahlen = randomizer.pullRandom(lotto, 6);
+glueckszahlen.sort((a, b) => a - b); // sort numerically and not as strings!
 console.log("Deine Glückszahlen sind: " + glueckszahlen);
 
 var wuerfel = [1, 2, 3, 4, 5, 6];
 var wurf3w6 = randomizer.pullRandom(wuerfel, 3, true);
-console.log("Dein Wurf: " + wurf3w6);
+console.log("Dein Wurf (3W6): " + wurf3w6);
