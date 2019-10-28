@@ -17,7 +17,18 @@
     "url": "https://github.com/mavnorthwind/Randomize/issues"
   },
   "homepage": "https://github.com/mavnorthwind/Randomize#readme",
-  "dependencies": {},
+  "dependencies": {
+    "connect": "^3.2.0",
+    "console-stamp": "^0.2.6",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.2",
+    "express-winston": "^2.4.0",
+    "image-type": "^3.0.0",
+    "js-yaml": "^3.3.0",
+    "qrcode": "^1.4.2",
+    "swagger-tools": "0.10.1",
+    "winston": "^2.4.2"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "codecov": "^3.6.1",
