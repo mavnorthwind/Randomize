@@ -27,11 +27,6 @@ for (var i = 1; i <= 49; i++) {
 var glueckszahlen = randomizer.pullRandom(lotto, 6);
 console.log("Deine Glückszahlen sind: " + glueckszahlen);
 
-
-try {
-    var bug = randomizer.pullRandom(lotto, -3);
-    console.log(bug);
-} catch (e) {
-    console.error(e);
-}
-
+var wuerfel = [1, 2, 3, 4, 5, 6];
+var wurf3w6 = randomizer.pullRandom(wuerfel, 3, true);
+console.log("Dein Wurf: " + wurf3w6);

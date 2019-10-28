@@ -15,7 +15,7 @@ function shuffle(arr) {
 	}
 }
 
-function pullRandom(arr, count) {
+function pullRandom(arr, count, allowDupes = false) {
 	if (arr.constructor !== Array) {
         throw new Error("Argument mismatch: arr is not an array");
 	}

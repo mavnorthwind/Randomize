@@ -53,4 +53,11 @@ describe("pullRandom tests", function () {
 
         expect(possible.find((x) => x[0] == res[0] && x[1] == res[1])).is.not.undefined;
     });
+
+    it('must respect allowDupes argument', function () {
+        var a = [1, 2];
+        var res = randomizer.pullRandom(a, 5, true);
+
+        expect(res.length).to.be.equal(5);
+    });
 });
