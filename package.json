@@ -4,8 +4,8 @@
   "description": "Tries to randomly pull items from an array",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha",
-    "test-unit": "./node_modules/.bin/mocha './**/*.spec.js'"
+    "test": "mocha",
+    "coverage": "nyc npm run test"
   },
   "repository": {
     "type": "git",
